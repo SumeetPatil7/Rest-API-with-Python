@@ -1,0 +1,47 @@
+################################################################################
+	Methods of communication Between Software Components:-
+################################################################################
+	External API's:-
+	Authentication with Facebook
+	WEB based 
+	OS 
+	Database 
+	Hardware 
+	Libraries
+
+################################################################################
+	Use Cases :-
+	Run a Process Or Routine
+	Use Hardware 
+
+###############################################################################
+			****REST API**** 
+	Methods to Access ,Process, & Handle Web Resources
+		Web Resources:-
+		Data
+		Documents
+		Audio
+		Images
+		Vidoes
+	These exchange happens in some Data Type from bellow:-
+		JSON
+		HTML
+		XML
+	To Access these data through our browser we have to Give its address 
+	i.e Uniform Resource Identifier/Uniform Resource Locator
+	HTTP:-
+	POST
+	PUT
+	GET
+	DELETE
+	These Different Methods are used to create retrieve Update Or Delete
+	SOFTWARE Design has CRUD:-
+	Create
+	Retrieve
+	Update
+	Delete
+
+
+	Rest Api's Work with a Web-Resources ,And these are handled by a Web-Server
+	A client will consume Rest Api
+	 
