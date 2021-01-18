@@ -44,4 +44,13 @@
 
 	Rest Api's Work with a Web-Resources ,And these are handled by a Web-Server
 	A client will consume Rest Api
+	A server will create Rest Api
+	Benifits of REST api:-
+	Scalibility
+	Server to Server
+	Multiple Client(Mobile,Desktop,etc)
+	Internet of Things
+	Microservices (Built Microservices)
+	Help for Rapid Development
+	
 	 
