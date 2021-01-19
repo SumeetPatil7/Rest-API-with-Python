@@ -1,0 +1,20 @@
+    Build a Pure-Django-API 
+    
+    Step 1: Set up the virtual environment
+            First create a Directory (In our case it's Rest-API-with-Python)
+            Open terminal in that directory
+            Run following command in terminal:-
+            >>virtualenv -p python3 .
+            
+            Activate this Virtual Environment
+            >>source bin/activate
+     Step 2: Install neccesary Packages using PIP
+            Django
+            >>pip install django
+            
+     Step 3: Make new directory src
+	     Change directory to src
+	     
+     
+            
+   
