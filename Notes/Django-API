@@ -13,6 +13,8 @@
             >>pip install django
             
      Step 3: Make new directory src
+	     Change directory to src
+	     
      
             
    
