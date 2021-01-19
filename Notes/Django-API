@@ -14,7 +14,51 @@
             
      Step 3: Make new directory src
 	     Change directory to src
-	     
-     
+
+            Create a django project 
+            >>django-admin startproject cfeapi
             
+	     Change directory to Project Folder
+            >>cd cfeapi
+
+            Migrate models to dbms
+            >>python manage.py migrate
+
+            Create a superuser to access the data
+            >>python manage.py createsuperuser
+
+            Run created project to check
+            >>python manage.py runserver
+
+     Step 4: Create an app to handle CRUD operations
+            >>python manage.py startapp updates
+
+            Once we have created our app, we can create models
+            Open updates/models.py and create your models
+
+            Create a model called update,
+            Which cotains user,Image,Content,Timeline
+
+            Add our app to Installed App in Settings.py
+            Register the app in admin.py
+
+
+            Make migrations to convert given model to equivalent Database tables
+            >>python manage.py makemigrations
+            >>python manage.py migrate
+
+     
+     Step 5: Create Views(API) for returning the JSON file as Response
+              create a function which accepts a request and returns http response or Json Response
+              
+              Open urls.py
+              Import views in this file
+              In urls.py -> path add this view
+
+              Now lets convert this view into a class based view
+              To begin with that from django.views.generic import View
+
+              Make a class inheriting from View class
+              Add a method called get
+              
    
